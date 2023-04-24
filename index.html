@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">SimpliDesign</a>
+            <div id="toggle" onclick="toggle()"></div>
+
+        </header>
+        <div class="content">
+            <h2>Hellow, <br>I'm <span>Ramin Parvaneh</span></h2>
+            <p>Welcome to my portfolio! I am a skilled front-end developer with a passion for creating beautiful and user-friendly web experiences. With several years of experience, I have honed my skills in HTML, CSS, and JavaScript and have a proven track record of delivering high-quality, responsive websites that meet the needs of both clients and end-users. From concept to deployment, I strive to bring creativity and technical expertise to every project I work on. Take a look at my work and get in touch to see how I can help bring your web vision to life.</p>
+                <a href="#">Know More</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./linkedin.png" alt=""></a></li>
+            <li><a href="#"><img src="./twitter.png" alt=""></a></li>
+
+        </ul>
+
+    </section>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
